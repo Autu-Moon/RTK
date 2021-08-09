@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{bb6651c9-bbf9-468b-b4fa-9c9616661cf2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\CoorTrans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\Ephemeris.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\EphStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\lambda.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\LeastSquare.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MathUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MatrixHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\MyMatrix.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\ObsStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\PVT.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RefFrame.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RTK.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RxNavReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\RxObsReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SatID.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SatNavBasic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\SPP.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TimeTrans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\TropoCorr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="include\UserObsStore.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\CoorTrans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Ephemeris.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EphStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\lambda.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\LeastSquare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MathUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ObsStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RefFrame.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RTK.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RxNavReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\RxObsReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SatNavBasic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\SPP.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TimeTrans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\TropoCorr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\UserObsStore.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
